@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title></title>
+    <style>
+      body,
+      p {
+        margin: 0;
+        background-color: antiquewhite;
+        font-family: "Roboto", sans-serif;
+      }
+      header {
+        background-color: rgb(48, 199, 201);
+        display: flex;
+      }
+      nav {
+        margin: 0;
+      }
+      .ul {
+        display: flex;
+        list-style-type: none;
+      }
+      .ul .li {
+        padding: 8px;
+        text-decoration: none;
+      }
+      .ul .li a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+      }
+      .ul .li a:hover {
+        text-decoration: underline;
+        color: rgb(235, 232, 135);
+      }
+      h2 {
+        padding: 10px;
+        margin: 10px;
+      }
+      .foodlist a {
+        text-decoration: none;
+        color: black;
+      }
+      .foodlist a:hover {
+        color: blue;
+      }
+      .images {
+        width: 50%;
+        margin: 0 auto;
+      }
+      .food {
+        width: 500px;
+        height: 300px;
+        border-radius: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 10px 10px 10px rgb(201, 201, 201);
+      }
+      .labels {
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="ul">
+          <li class="li">
+            <a href="#"><span>Index</span></a>
+          </li>
+          <li class="li">
+            <a href="#"><span>Food</span></a>
+          </li>
+          <li class="li">
+            <a href="#"><span>About</span></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <h2>Top 5 Favourite Food</h2>
+
+    <ul class="fooditems">
+      <li class="foodlist">
+        <span><a href="#Biryani">Biryani</a></span>
+      </li>
+      <li class="foodlist">
+        <span><a href="#Oreo MilkShake">Oreo MilkShake</a></span>
+      </li>
+      <li class="foodlist">
+        <span><a href="#Noodles">Noodles</a></span>
+      </li>
+      <li class="foodlist">
+        <span><a href="#Chiken Curry">Chiken Curry</a></span>
+      </li>
+      <li class="foodlist">
+        <span><a href="#Rasmalai">Rasmalai</a></span>
+      </li>
+    </ul>
+
+    <div class="images">
+      <img
+        src="https://media.istockphoto.com/photos/chicken-biryani-with-yogurt-dip-popular-indian-pakistani-non-food-picture-id1254720533?b=1&k=20&m=1254720533&s=170667a&w=0&h=Ulr-m1vVGmMGdFFU0lNvX9nnKuzYhQSFI5ZIdIGYkKk="
+        alt="Biryani"
+        class="food"
+        id="Biryai"
+      /><br />
+      <p class="labels">Biryani</p>
+      <br />
+
+      <img
+        src="https://www.akorganicindia.com/wp-content/uploads/2019/10/Orea-Milkshake.jpg"
+        alt="Oreo-Milkshake"
+        class="food"
+        id="Oreo MilkShake"
+      /><br />
+      <p class="labels">Orea-Milkshake</p>
+      <br />
+
+      <img
+        src="https://wallpapercave.com/wp/wp2393879.jpg"
+        alt="Noodles"
+        class="food"
+        id="Noodles"
+      /><br />
+      <p class="labels">Noodles</p>
+      <br />
+
+      <img
+        src="https://static.toiimg.com/thumb/53151570.cms?width=1200&height=900"
+        alt="Chiken Curry"
+        class="food"
+        id="Chiken Curry"
+      /><br />
+      <p class="labels">Chiken Curry</p>
+      <br />
+
+      <img
+        src="https://thumbs.dreamstime.com/b/indian-sweet-rasmalai-terracotta-bowl-close-up-indian-sweets-festivals-earthen-bowl-rasmalai-made-chenna-158574308.jpg"
+        alt="Rasmalai"
+        class="food"
+        id="Rasmalai"
+      /><br />
+      <p class="labels">Rasmalai</p>
+      <br />
+    </div>
+  </body>
+</html>
